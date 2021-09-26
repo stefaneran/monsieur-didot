@@ -1,0 +1,74 @@
+.headerContainer {
+  width: 100vw;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #F9F9F9;
+  overflow: hidden;
+}
+
+.flex {
+  display: flex;
+}
+
+svg.icon {
+  fill: #cccccc;
+}
+
+svg.hamburgerIcon {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+svg.searchIcon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.headerHamburger {
+  height: 100%;
+  border-right: 2px solid #F9F9F9;
+  padding: 1rem 1.3rem;
+}
+
+.headerNavLink {
+  display: inline-block;
+  height: 68px; /* 2px less than the container height so bottom border can be visible, would have used something like calc(HEADER_HEIGHT - 2px) */
+  margin-left: 2.5rem;
+  text-decoration: none;
+  color: #000;
+}
+
+.headerNavLinkSelected {
+  border-bottom: 3px solid #F7B309;
+}
+
+.headerNavLink span {
+  position: relative;
+  top: 1.5rem;
+}
+
+.headerLogo {
+  padding-top: 1.5rem;
+}
+
+.headerLogo svg {
+  width: 190px;
+  height: 20px;
+}
+
+.headerButtons {
+  padding-top: 0.5rem;
+}
+
+.headerSearch {
+  width: 3rem;
+  padding: 1.2rem 1.5rem;
+  border-left: 2px solid #F9F9F9;
+  transition: width 100ms;
+  display: flex;
+}
+
+.headerSearchOpen {
+  width: 10rem;
+}

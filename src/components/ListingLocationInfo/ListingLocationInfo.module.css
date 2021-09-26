@@ -1,0 +1,25 @@
+
+.listingLocationInfoContainer {
+  display: flex;
+  border-top: 2px solid #D9C3B9;
+  border-bottom: 2px solid #D9C3B9;
+  margin-bottom: 2rem;
+  padding: 0.5rem;
+}
+
+.listingLocationInfoItem {
+  display: flex;
+  height: 1.5rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  border-left: 2px solid #D9C3B9;
+}
+
+.listingLocationInfoItem:first-child {
+  border-left: initial;
+  padding-left: 0;
+}
+
+.listingLocationInfoItem svg {
+  margin-right: 0.5rem;
+}

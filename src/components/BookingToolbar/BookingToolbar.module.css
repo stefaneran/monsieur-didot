@@ -1,0 +1,21 @@
+.bookingContainer {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid #F9F9F9;
+  background: #fff;
+}
+
+.bookingFields {
+  display: flex;
+}
+
+.bookingButton {
+  background: #FDBB30;
+  letter-spacing: 2px;
+  font-size: 0.8rem;
+  height: 4em;
+  margin-right: 3rem;
+  text-transform: uppercase;
+}

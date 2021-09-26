@@ -1,0 +1,61 @@
+.carouselContainer {
+  overflow: hidden;
+  position: relative;
+}
+
+.carouselControls {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.carouselControlsButton {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carouselControlsButtonBack {
+  left: 0.5rem;
+}
+
+.carouselControlsButtonForward {
+  display: flex;
+  right: 0.5rem;
+}
+
+.carouselControlsArrow {
+  fill: #000;
+  cursor: pointer;
+}
+
+.carouselControlsCounter {
+  background: #fff;
+  border-radius: 50%;
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0.1rem;
+  margin-right: 0.3rem;
+  line-height: 1.5rem;
+  font-size: 0.6rem;
+  color: #000;
+  text-align: center;
+}
+
+.carouselImageContainer {
+  height: 100%;
+  width: 100%;
+  white-space: nowrap;
+}
+
+.carouselImage {
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition: margin-left 300ms;
+}

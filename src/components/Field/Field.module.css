@@ -1,0 +1,38 @@
+.fieldContainer {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  border-left: 2px solid #F9F9F9;
+  padding: 0.5rem 2rem;
+  min-width: 160px;
+}
+
+.fieldContainer:first-child {
+  border-left: initial;
+}
+
+.fieldLabel {
+  margin: 0;
+  color: #757578;
+  font-size: 0.9rem;
+}
+
+.fieldValue {
+  margin: 0;
+  color: #000;
+}
+
+.icon {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 1rem;
+}
+
+.fieldSelect {
+  position: absolute;
+  display: block;
+  font-family: 'Halyard Display Regular';
+  font-size: 1rem;
+  min-width: 100px;
+}
